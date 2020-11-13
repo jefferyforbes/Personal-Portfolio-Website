@@ -21,10 +21,12 @@ body {
 .display-4 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .opening {
-    width: 80%;
+    text-align: center;
+    width: 100%;
 }
 
 .short-p {
@@ -70,6 +72,10 @@ body {
     margin: 2rem 6rem 2rem 6rem;
 }
 
+.project-cards {
+    margin-bottom: 5rem;
+}
+
 .card {
     border-radius: 2rem;
     width: auto;
@@ -82,12 +88,9 @@ body {
 }
 
 .tech-stack {
-    display: flex;
     justify-content: center;
-    width: 100%;
     height: auto;
-    padding-top: 2rem;
-    margin: 1rem;
+    padding-top: 1rem;
 }
 
 .tech-stack i {
@@ -107,8 +110,8 @@ body {
 }
 
 .social-icons i {
-    margin: .6rem;
-    padding: .6rem;
+    margin: .8rem;
+    padding: .8rem;
 }
 
 .social-icons {
@@ -122,61 +125,21 @@ body {
 
 .copyright-info {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2rem;
     justify-content: center;
     align-content: center;
+    margin-top: 5rem;
 }
 
-@media only screen and (max-width: 650px) {
-    .jumbotron {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-    .display-4 {
-        margin-top: 5rem;
-        text-align: center;
-    }
-    .opening {
-        margin: 2rem;
-    }
-    #dwnldCV {
-        margin: 5rem 0 0 5rem;
-        align-content: flex-start;
-        align-items: flex-start;
-    }
-    * .tech-stack {
-        display: flex;
-        justify-content: center;
-        flex-flow: row;
-        width: 100%;
-        height: auto;
-        padding-top: 0;
-        margin: 0;
+
+/* @media only screen and (max-width: 870px) {
+    .tech-stack {
+        padding-top: 1rem;
     }
     .tech-stack i {
-        margin: 0;
+        margin: .8rem;
+        padding: .8rem;
         padding-left: 0;
         padding-right: 0;
-        font-size: 1.35em;
-        padding: 0.32rem;
-        width: 100%;
-    }
-    .social-icons {
-        height: 4rem;
-        margin: 1rem;
-    }
-    .social-icons i {
-        font-size: 2.5em;
-        margin: .5rem;
-        padding: .2rem;
-    }
-    .copyright-info {
-        font-size: 1.6rem;
-        width: 100%;
-        margin-top: 2rem;
     }
 }
-
-
-/* End of mobile media query */
