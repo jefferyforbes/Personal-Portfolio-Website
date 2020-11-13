@@ -83,6 +83,11 @@ body {
     margin-top: 20px;
 }
 
+.card img {
+    width: 30rem;
+    height: auto;
+}
+
 .colCard {
     margin-top: 20px;
 }
