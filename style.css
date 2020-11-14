@@ -1,150 +1,199 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    box-sizing: border-box;
-}
-
-header,
-body,
-.lead,
-article,
-footer {
-    margin: 2rem;
-    font-size: 1.5rem;
-}
-
-body {
-    background-color: rgba(115, 115, 145, 0.2);
-}
-
-.display-4 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.opening {
-    text-align: center;
-    width: 100%;
-}
-
-.short-p {
-    margin: 2rem;
-}
-
-.navbar-button {
-    color: seashell;
-    background-color: rgba(115, 115, 145, 0.2);
-}
-
-.short-p,
-.lead {
-    text-align: center;
-}
-
-.learn-more-section {
-    display: hidden;
-    text-align: center;
-}
-
-#dwnldCV:hover {
-    background-color: royalblue;
-    transition-delay: 50ms;
-    transition-duration: 120ms;
-}
-
-#dwnldCV {
-    display: flex;
-    margin: 5rem 0 0 5rem;
-    justify-content: flex-end;
-    align-content: flex-end;
-}
-
-.card-body {
-    justify-content: space-evenly;
-    padding: 2rem;
-    flex-flow: row;
-}
-
-.card-img-icon {
-    justify-content: center;
-    margin: 2rem 6rem 2rem 6rem;
-}
-
-.project-cards {
-    margin-bottom: 5rem;
-}
-
-.card {
-    border-radius: 2rem;
-    width: auto;
-    height: auto;
-    margin-top: 20px;
-}
-
-.card img {
-    width: 30rem;
-    height: auto;
-}
-
-.colCard {
-    margin-top: 20px;
-}
-
-.tech-stack {
-    justify-content: center;
-    height: auto;
-    padding-top: 1rem;
-}
-
-.tech-stack i {
-    margin: .8rem;
-    padding: .8rem;
-    padding-left: 0;
-    padding-right: 0;
-    width: auto;
-}
-
-.jumbotron {
-    color: seashell;
-    margin: 1rem;
-    width: auto;
-    padding: 5rem;
-    height: auto;
-}
-
-.social-icons i {
-    margin: .8rem;
-    padding: .8rem;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: auto;
-    height: 4rem;
-    margin: 1rem;
-}
-
-.copyright-info {
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
-    align-content: center;
-    margin-top: 5rem;
-}
-
-
-/* @media only screen and (max-width: 870px) {
-    .tech-stack {
-        padding-top: 1rem;
-    }
-    .tech-stack i {
-        margin: .8rem;
-        padding: .8rem;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+                                            * {
+                                            margin: 0px;
+                                            padding: 0px;
+                                            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        header,
+                                        body,
+                                        .lead,
+                                        article,
+                                        footer {
+                                            margin: 2rem;
+                                            font-size: 1.5rem;
+                                        }
+                                        
+                                        body {
+                                            background-color: rgba(115, 115, 145, 0.2);
+                                        }
+                                        
+                                        .display-4 {
+                                            display: flex;
+                                            justify-content: center;
+                                            text-align: center;
+                                        }
+                                        
+                                        .opening {
+                                            text-align: center;
+                                            width: 100%;
+                                        }
+                                        
+                                        .short-p {
+                                            margin: 2rem;
+                                        }
+                                        
+                                        .navbar-button {
+                                            color: seashell;
+                                            background-color: rgba(115, 115, 145, 0.2);
+                                        }
+                                        
+                                        .short-p,
+                                        .lead {
+                                            text-align: center;
+                                        }
+                                        
+                                        .learn-more-section {
+                                            display: hidden;
+                                            text-align: center;
+                                        }
+                                        
+                                        #dwnldCV:hover {
+                                            background-color: royalblue;
+                                            transition-delay: 50ms;
+                                            transition-duration: 120ms;
+                                        }
+                                        
+                                        #dwnldCV {
+                                            display: flex;
+                                            margin: 5rem 0 0 5rem;
+                                            justify-content: flex-end;
+                                            align-content: flex-end;
+                                        }
+                                        
+                                        .card-body {
+                                            justify-content: space-evenly;
+                                            padding: 2rem;
+                                            flex-flow: row;
+                                        }
+                                        
+                                        .card-img-icon {
+                                            justify-content: center;
+                                            margin: 2rem 6rem 2rem 6rem;
+                                        }
+                                        
+                                        .project-cards {
+                                            margin-bottom: 5rem;
+                                        }
+                                        
+                                        .card {
+                                            border-radius: 2rem;
+                                            width: auto;
+                                            height: auto;
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .card img {
+                                            width: 30rem;
+                                            height: auto;
+                                        }
+                                        
+                                        .colCard {
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .tech-stack {
+                                            justify-content: center;
+                                            height: auto;
+                                            padding-top: 1rem;
+                                        }
+                                        
+                                        .tech-stack i {
+                                            margin: .8rem;
+                                            padding: .8rem;
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            width: auto;
+                                        }
+                                        
+                                        .jumbotron {
+                                            color: seashell;
+                                            margin: 1rem;
+                                            width: 100%;
+                                            padding: 5rem;
+                                            height: auto;
+                                        }
+                                        
+                                        .social-icons i {
+                                            margin: .8rem;
+                                            padding: .8rem;
+                                        }
+                                        
+                                        .social-icons {
+                                            display: flex;
+                                            justify-content: center;
+                                            flex-direction: row;
+                                            width: auto;
+                                            height: 4rem;
+                                            margin: 1rem;
+                                        }
+                                        
+                                        .copyright-info {
+                                            display: flex;
+                                            font-size: 2rem;
+                                            justify-content: center;
+                                            align-content: center;
+                                            margin-top: 5rem;
+                                        }
+                                        /* END OF MEDIA QUERY 870 */
+                                        
+                                        @media only screen and (max-width: 655px) {
+                                            .jumbotron {
+                                                margin: 0;
+                                                padding: 0;
+                                                width: 100%;
+                                            }
+                                            .display-4 {
+                                                margin-top: 5rem;
+                                                text-align: center;
+                                            }
+                                            .opening {
+                                                margin: 2rem;
+                                                width: 80%;
+                                                text-align: center;
+                                            }
+                                            #dwnldCV {
+                                                margin: 5rem 0 0 5rem;
+                                                align-content: flex-start;
+                                                align-items: flex-start;
+                                            }
+                                            .tech-stack {
+                                                display: flex;
+                                                justify-content: center;
+                                                flex-flow: row;
+                                                width: 90%;
+                                                height: auto;
+                                                padding-top: 0;
+                                                margin: 0;
+                                            }
+                                            .tech-stack i {
+                                                margin: 0;
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                                font-size: 1.35em;
+                                                padding: 0.30rem;
+                                                width: 100%;
+                                            }
+                                            .social-icons {
+                                                height: 4rem;
+                                                margin: 1rem;
+                                            }
+                                            .social-icons i {
+                                                font-size: 2em;
+                                                margin: .5rem;
+                                                padding: .2rem;
+                                            }
+                                            .copyright-info {
+                                                font-size: 1.6rem;
+                                                width: 100%;
+                                                margin-top: 2rem;
+                                            }
+                                            header,
+                                            body,
+                                            .lead,
+                                            article,
+                                            footer {
+                                                margin: 2rem;
+                                                font-size: 1.5rem;
+                                            }
+                                            /* END OF MOBILE MEDIA QUERY //// OR 655px */
