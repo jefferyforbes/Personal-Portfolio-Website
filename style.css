@@ -199,10 +199,14 @@
      }
  }
  
- @media only screen and (max-width: 355px) {}
+ @media only screen and (max-width: 325px) {
+     .tech-stack i {
+         font-size: 0.9em;
+     }
+ }
  
  @media only screen and (max-width: 255px) {
      .tech-stack i {
-         font-size: 0.8em;
+         font-size: 0.6em;
      }
  }
