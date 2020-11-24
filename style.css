@@ -93,11 +93,6 @@ body {
     margin-top: 20px;
 }
 
-.card img {
-    width: 30rem;
-    height: auto;
-}
-
 .list-square-bullet-point {
     display: list-item;
     list-style-position: inside;
@@ -158,47 +153,6 @@ body {
     margin-top: 5rem;
 }
 
-.project-imgs {
-    z-index: 10;
-    max-width: 25rem;
-    height: auto;
-    padding: 2rem;
-    margin: 2rem;
-}
-
-
-/* @media only screen and (max-width: 1265px) {
-     .project-imgs {
-         max-width: 22rem;
-         width: 100%;
-         height: auto;
-         padding: 2rem;
-         margin: 2rem;
-     }
- }
- 
- @media only screen and (max-width: 1000px) {
-     .project-imgs {
-         max-width: 20rem;
-         width: 100%;
-         height: auto;
-         padding: 1rem;
-         margin: 1rem;
-     }
- }
- 
- @media only screen and (max-width: 920px) {
-     .project-imgs {
-         max-width: 20rem;
-         width: 100%;
-         height: auto;
-         padding: 2rem;
-         margin: 2rem;
-     }
- } */
-
-@media only screen and (max-width: 955px) {}
-
 @media only screen and (max-width: 655px) {
     .jumbotron {
         margin: 0;
@@ -218,6 +172,11 @@ body {
         margin: 5rem 0 0 5rem;
         align-content: flex-start;
         align-items: flex-start;
+    }
+    .card-img-icon {
+        justify-content: center;
+        margin: 2rem;
+        padding: 2rem;
     }
     .tech-stack {
         display: flex;
@@ -260,7 +219,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 340px) {
     .tech-stack i {
         font-size: 0.9em;
     }
