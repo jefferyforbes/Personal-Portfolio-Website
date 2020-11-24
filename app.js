@@ -1,9 +1,13 @@
-function learnMoreS() {
-    let learnMoreBtn = document.querySelector("btn btn-primary")
-    let learnMoreSection = document.getElementById("learn-more-section")
-    if (learnMoreSection.style.display === "none") {
-        learnMoreSection.style.display = "block";
+// The hideShow function is the function called upon the "More About Me button click."
+function hideShowSection() {
+    let section = document.querySelector("#learn-more-section");
+    let showHideBtn = document.querySelector("#hideShowBtn");
+
+    if (section.style.display === 'none') {
+        section.style.display = 'block';
+        showHideBtn.innerHTML = "Hide More About Me"
     } else {
-        learnMoreSection.style.display = "none"
+        section.style.display = 'none';
+        showHideBtn.innerHTML = "Show More About Me"
     }
-}
+};
