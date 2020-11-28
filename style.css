@@ -46,13 +46,12 @@ body {
 .short-p,
 .lead {}
 
+#hideShowBtn:hover,
 #dwnldCV:hover {
     background-color: royalblue;
     transition-delay: 50ms;
     transition-duration: 120ms;
 }
-
-.jumbotron {}
 
 #dwnldCV {
     display: flex;
@@ -152,6 +151,42 @@ body {
     justify-content: center;
     align-content: center;
     margin-top: 5rem;
+}
+
+.Quals-List {
+    position: relative;
+    box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, .4);
+    margin: 3rem;
+    border-radius: .8rem;
+}
+
+nav ul .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: red;
+    width: 100%;
+}
+
+.Quals-List ul a {
+    color: black;
+    position: relative;
+    line-height: 2rem;
+    text-decoration: none;
+    padding: 0.6rem 0 0.6rem 0;
+    z-index: 3;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.Quals-List ul a:nth-child(1) {
+    width: 25rem;
+}
+
+.Quals-List ul a:nth-child(2) {
+    width: 25rem;
 }
 
 @media only screen and (max-width: 655px) {
